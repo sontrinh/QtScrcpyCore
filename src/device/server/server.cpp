@@ -51,7 +51,7 @@ bool Server::pushServer()
     if (m_workProcess.isRuning()) {
         m_workProcess.kill();
     }
-    m_workProcess.push(m_params.serial, m_params.serverLocalPath, m_params.serverRemotePath);
+    // m_workProcess.push(m_params.serial, m_params.serverLocalPath, m_params.serverRemotePath);
     return true;
 }
 
